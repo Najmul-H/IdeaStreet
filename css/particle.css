@@ -1,0 +1,14 @@
+#webcoderskull{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    padding: 0 0px;
+    width: 100%;
+    text-align: center;
+}
+
+canvas{
+   min-height: 55vh !important;
+    min-width: 100vw !important;
+    
+}

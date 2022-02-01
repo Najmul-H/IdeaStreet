@@ -1,0 +1,387 @@
+/*
+Theme Name: Demo
+Author: Najmul
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+.first-of-type-text-1 {
+  animation: showup_text_1 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-1 {
+  width:0px;
+  animation: reveal_text_1 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-1 span {
+  margin-left:-150px;
+  animation: slidein_text_1 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-1 {
+  width:0px;
+  animation: revealout_text_1 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-1 span {
+  margin-left:-10px;
+  animation: slideout_text_1 7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideout_text_1 {
+    0% { margin-left:-100px; }
+    20% { margin-left:-100px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes revealout_text_1 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+@keyframes showup_text_1 {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein_text_1 {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal_text_1 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+.typewriter-text-2-line-1 {
+  width: 95%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing_line_1 3.5s steps(40, end);
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+/* The typing effect */
+@keyframes typing_line_1 {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: none;
+  }
+  100% {
+    border: none;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+   50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter-text-2-line-2 {
+  width: 75%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  opacity: 0;
+  animation: 
+    typing_line_2 3.5s steps(30, end);
+    /*blink-caret .5s step-end infinite alternate;*/
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing_line_2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.first-of-type-text-3 {
+  animation: showup_text_3 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-3 {
+  width:0px;
+  animation: reveal_text_3 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-3 span {
+  margin-left:-150px;
+  animation: slidein_text_3 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-3 {
+  width:0px;
+  animation: revealout_text_3 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-3 span {
+  margin-left:-10px;
+  animation: slideout_text_3 7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideout_text_3 {
+    0% { margin-left:-100px; }
+    20% { margin-left:-100px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes revealout_text_3 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+@keyframes showup_text_3 {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein_text_3 {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal_text_3 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+.typewriter-text-4-line-1 {
+  width: 95%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing_line_1 3.5s steps(40, end);
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+.typewriter-text-4-line-2 {
+  width: 98%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  opacity: 0;
+  animation: 
+    typing_line_2 3.5s steps(30, end);
+    /*blink-caret .5s step-end infinite alternate;*/
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+.first-of-type-text-6 {
+  animation: showup_text_6 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-6 {
+  width:0px;
+  animation: reveal_text_6 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-6 span {
+  margin-left:-150px;
+  animation: slidein_text_6 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-6 {
+  width:0px;
+  animation: revealout_text_6 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-6 span {
+  margin-left:-10px;
+  animation: slideout_text_6 7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideout_text_6 {
+    0% { margin-left:-100px; }
+    20% { margin-left:-100px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes revealout_text_6 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+@keyframes showup_text_6 {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein_text_6 {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal_text_6 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+.typewriter-text-7-line-1 {
+  width: 95%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing_line_1 3.5s steps(40, end);
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+.typewriter-text-7-line-2 {
+  width: 98%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  opacity: 0;
+  animation: 
+    typing_line_2 3.5s steps(30, end);
+    /*blink-caret .5s step-end infinite alternate;*/
+  animation-delay: 6.5s;
+  animation-fill-mode: forwards;
+}
+
+.first-of-type-text-5 {
+  animation: showup_text_5 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-5 {
+  width:0px;
+  animation: reveal_text_5 7s;
+  animation-fill-mode: forwards;
+}
+
+.last-of-type-text-5 span {
+  margin-left:-150px;
+  animation: slidein_text_5 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-5 {
+  width:0px;
+  animation: revealout_text_5 7s;
+  animation-fill-mode: forwards;
+}
+
+.middle-of-type-text-5 span {
+  margin-left:-10px;
+  animation: slideout_text_5 7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideout_text_5 {
+    0% { margin-left:-100px; }
+    20% { margin-left:-100px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes revealout_text_5 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+@keyframes showup_text_5 {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein_text_5 {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal_text_5 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+#nf-label-field-5:before{
+   content: url("https://mozorg.cdn.mozilla.net/media/img/favicon.ico");
+}
+

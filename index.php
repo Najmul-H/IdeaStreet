@@ -155,32 +155,51 @@
 </div>
 
 <div class="col-md-4">
-  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalSignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalSignTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-2">
+          <div class="card card-plain">
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalSignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalSignTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-        <div class="modal-content">
-          <div class="modal-body p-0">
-            <div class="card card-plain">
-              <div class="card-header pb-0 text-left">
-                  <h3 class="font-weight-bolder text-primary text-gradient">Join us today</h3>
+            <div class="card-header pb-0 text-left">
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h3 class="font-weight-bolder text-primary text-gradient" style="margin-right: 1rem;" id="form_header">Join our community</h3>
+
+            </div>
+
+            <div class="card-body pb-3 pt-0 pe-4 ps-4">
+              <div id="status" style="display: none;">
+                <h6 class="font-weight-bolder text-dark">Thank you for your interest in IdeaStreet.</h6>
+                <h6 class="font-weight-normal text-dark">Our team will review the information and it fits the community purpose, we will send you a link to join the community.</h6>
               </div>
-              <div class="card-body pb-3">
-                <form class="needs-validation" novalidate>
-                  <div class="input-group input-group-outline my-3">
-                    <label class="form-label">Text</label>
-                    <input type="text" class="form-control" required>
-                  </div>
-                  <div class="input-group input-group-outline my-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" required>
-                  </div>
-                  
+              <form class="needs-validation" novalidate autocomplete="off">
+                <div class="input-group input-group-outline my-3" id="form_name">
+                  <label class="form-label">Name</label>
+                  <input type="text" id="name" maxlength="48" class="form-control" style="height: 40.39px;" required>
+                </div>
+                <div class="input-group input-group-outline my-3" id="form_email">
+                  <label class="form-label">Email</label>
+                  <input type="email" id="email" maxlength="48" class="form-control" style="height: 40.39px;" required>
+                </div>
+                <div class="input-group input-group-outline my-3" id="form_company">
+                  <label class="form-label">Company</label>
+                  <input type="text" id="company" maxlength="48" class="form-control" style="height: 40.39px;">
+                </div>
+                <div class="input-group input-group-outline my-3" id="form_designation">
+                  <label class="form-label">Designation</label>
+                  <input type="text" id="designation" maxlength="48" class="form-control" style="height: 40.39px;">
+                </div>
+                <div class="form-check form-switch" id="form_consent">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked="" required>
+                  <label class="form-check-label" for="flexSwitchCheckDefault">I agree to the <a href="javascript:;" class="text-dark"><u>Terms and Conditions</u></a>.</label>
+                </div>
                 
 
                   <div class="text-center">
-                    <button type="submit" class="btn bg-gradient-primary btn-lg btn-rounded w-100 mt-4 mb-0">Sign up</button>
+                    <button type="button" id="form_button" class="btn bg-gradient-primary btn-lg btn-rounded w-100 mt-4 mb-0">Sign up</button>
                   </div>
                 </form>
               </div>

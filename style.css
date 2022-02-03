@@ -403,6 +403,7 @@ Version: 1.0
     100% {opacity:1;width:auto;}
 }
 
+
 #nf-label-field-5:before{
    content: url("https://mozorg.cdn.mozilla.net/media/img/favicon.ico");
 }

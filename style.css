@@ -7,6 +7,28 @@ Version: 1.0
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 
+
+
+
+
+.animation-font {
+  font-size: 1rem;
+  color: #061F55;
+  font-weight:700;
+}
+
+@media (min-width: 0px) {
+  .animation-font { font-size: 16px; }
+}
+
+@media (min-width: 320px) {
+  .animation-font { font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1200 - 320))); }
+}
+
+@media (min-width: 1001px){
+  .animation-font { font-size: 22px; }
+}
+
 .first-of-type-text-1 {
   animation: showup_text_1 7s;
   animation-fill-mode: forwards;
@@ -210,7 +232,7 @@ Version: 1.0
 }
 
 .typewriter-text-4-line-2 {
-  width: 98%;
+  width: 100%;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: none; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

@@ -21771,7 +21771,6 @@ body.dark-version {
 }
 
 .input-group.input-group-outline .form-control {
-  background: none;
   border: 1px solid #d2d6da;
   border-radius: 0.375rem;
   border-top-left-radius: 0.375rem !important;

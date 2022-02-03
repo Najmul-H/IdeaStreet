@@ -6,7 +6,7 @@
     <div id="particles">
       <div id="webcoderskull">
         <div class="container">
-          <div class="col-md-12 ml-auto mr-auto" style="padding-top:10vh;">  
+          <div class="col-md-12 ml-auto mr-auto" style="padding-top:10vh;padding-left: 5px;padding-right: 5px;">  
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner mb-4">
                 <div style="transition: none" class="carousel-item active" data-interval="10000">
@@ -18,8 +18,8 @@
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="last-of-type-text-1"> 
                       <span style="overflow:hidden;color:#4995C9;">Never Fails</span>
                     </div>
-                    <div style="font-size:clamp(0.8vh,1rem,22px);color: #061F55;font-weight:700;" class="typewriter-text-2-line-1">Either you or someone always convert the</div>
-                    <div style="font-size:clamp(0.8vh,1rem,22px);color: #061F55;font-weight:300;" class="typewriter-text-2-line-2">Idea to a successful Business</div>
+                    <div class="typewriter-text-2-line-1 animation-font">Either you or someone always convert the</div>
+                    <div class="typewriter-text-2-line-2 animation-font">Idea to a successful Business</div>
                   </div>
                 </div>
 
@@ -32,8 +32,8 @@
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="last-of-type-text-3"> 
                       <span style="overflow:hidden;color:#4995C9;">Do</span>
                     </div>
-                    <div style="font-size:clamp(1.5vh,1rem,22px);color: #061F55;font-weight:700;" class="typewriter-text-4-line-1">The fast accessibility to required resources</div>
-                    <div style="font-size:clamp(1.5vh,1rem,22px);color: #061F55;font-weight:700;" class="typewriter-text-4-line-2">translate ideas to the successful Businesses</div>
+                    <div class="typewriter-text-4-line-1 animation-font">The fast accessibility to required resources</div>
+                    <div class="typewriter-text-4-line-2 animation-font">translate ideas to the successful Businesses</div>
                   </div>
                 </div>
                  
@@ -58,8 +58,8 @@
                     </div>
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;color:#061F55;" class="first-of-type-text-6">Ideas</div>
 
-                    <div style="font-size:clamp(1.5vh,1rem,22px);color:#061F55;font-weight:300;" class="typewriter-text-7-line-1">The platform enabled Marketplace to</div>
-                    <div style="font-size:clamp(1.5vh,1rem,22px);color:#061F55;font-weight:300;" class="typewriter-text-7-line-2">access all the resources you need</div>
+                    <div class="typewriter-text-7-line-1 animation-font">The platform enabled Marketplace to</div>
+                    <div class="typewriter-text-7-line-2 animation-font">access all the resources you need</div>
                   </div>
                 </div>
 
@@ -68,7 +68,7 @@
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="last-of-type-text-5"> 
                       <span style="overflow:hidden;color: #061F55;font-size:clamp(6vh,12vh,64px);font-family:'Segoe UI';">idea</span><span style="overflow:hidden;color:#4995C9;font-size:clamp(6vh,12vh,64px);font-family:'Segoe UI';">Street</span>
                     </div>
-                    <div style="font-size:clamp(1.5vh,1rem,22px);color:#061F55;font-weight:300;" class="typewriter-text-7-line-1">Bringing your ideas to Wall Street</div>
+                    <div class="typewriter-text-7-line-1 animation-font">Bringing your ideas to Wall Street</div>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@
           <div class="card">
             <div class="card-body text-center">
               <h6 class="font-weight-normal">Avail the benefits of a close-knit community of like-minded entrepreneurs and experts.</h6>
-              <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">Join Now</button>
+              <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp">Join Now</button>
             </div>
           </div>
         </div>
@@ -153,4 +153,43 @@
   </section>
   <!-- END Section with four info areas left & one card right with image and waves -->
 </div>
+
+<div class="col-md-4">
+  
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalSignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalSignTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="card card-plain">
+              <div class="card-header pb-0 text-left">
+                  <h3 class="font-weight-bolder text-primary text-gradient">Join us today</h3>
+              </div>
+              <div class="card-body pb-3">
+                <form class="needs-validation" novalidate>
+                  <div class="input-group input-group-outline my-3">
+                    <label class="form-label">Text</label>
+                    <input type="text" class="form-control" required>
+                  </div>
+                  <div class="input-group input-group-outline my-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                  </div>
+                  
+                
+
+                  <div class="text-center">
+                    <button type="submit" class="btn bg-gradient-primary btn-lg btn-rounded w-100 mt-4 mb-0">Sign up</button>
+                  </div>
+                </form>
+              </div>
+     
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <?php get_footer(); ?>

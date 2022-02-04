@@ -72,27 +72,27 @@ function core_function() {
 				$emailTo = get_option('admin_email');
 	      
 				$subject = 'Confirmation Email';
-				$body = '<div style="width: auto; height: auto; background-color: #FFFFFF; padding: 8%;">
-  <div style="width:80%; margin-right: auto; margin-left:auto;">
-    <div style="border-style: solid; border-radius: 12px; background-image: linear-gradient(195deg, #42424a 0%, #191919 100%); border-left-color: #42424a;
-    border-right-color: #42424a;border-top-color: #42424a;border-bottom-color: #42424a;">
-      <div style="margin-top: -24px; margin-left: 16px; margin-right: 16px; padding-top: 10px; padding-bottom: 10px; background-color: #dee2e5; border-radius: 12px;">
-        <div style="text-align: center; font-weight: bold;">
-            <span style="overflow:hidden;color: #061F55;font-size:2.5rem;">idea</span><span style="overflow:hidden;color:#4995C9;font-size:2.5rem;">Street</span><br/>
-            <span style="white-space:nowrap;overflow:hidden;color: #061F55; font-size: 1.5rem;">Community</span> 
-        </div>
-      </div>
-      <div style="padding: 24px;">
-        <p style="color: #FFFFFF; font-size: 1rem;">Hello '.$_POST['name'].',</p>
-        <p style="color: #FFFFFF; font-size: 1rem;">Thank you for your interest in IdeaStreet. Our team will review the information and if it fits the community purpose, we will send you a link to join the community within next 48 hours.</p><br/>
-        <p style="color: #FFFFFF; font-size: 1rem;"> IdeaStreet Team</p>
-      </div>
-    </div>
-  </div>
-</div>';
+				$body = '<div style="width: auto; height: auto; background-color: #FFFFFF; padding: 4%;">
+						  <div style="width:100%; margin-right: auto; margin-left:auto;">
+						    <div style="border-style: solid; border-radius: 12px; background-color: #191919; border-left-color: #42424a;
+						    border-right-color: #42424a;border-top-color: #42424a;border-bottom-color: #42424a;">
+						      <div style="padding-top: 10px; padding-bottom: 10px; background-color: #dee2e5; border-radius: 12px;">
+						        <div style="text-align: center; font-weight: bold;">
+						            <span style="overflow:hidden;color: #061F55;font-size:2.5rem;">idea</span><span style="overflow:hidden;color:#4995C9;font-size:2.5rem;">Street</span><br/>
+						            <span style="white-space:nowrap;overflow:hidden;color: #061F55; font-size: 1.5rem;">Community</span> 
+						        </div>
+						      </div>
+						      <div style="padding: 24px;">
+						        <p style="color: #FFFFFF; font-size: 1rem;">Hello '.$_POST['name'].',</p>
+						        <p style="color: #FFFFFF; font-size: 1rem;">Thank you for your interest in IdeaStreet. Our team will review the information and if it fits the community purpose, we will send you a link to join the community within next 48 hours.</p><br/>
+						        <p style="color: #FFFFFF; font-size: 1rem;"> IdeaStreet Team</p>
+						      </div>
+						    </div>
+						  </div>
+						</div>';
 				$headers = 'From: IdeaStreet'.' <'.$emailTo.'>' . "\r\n" . 'Content-Type: text/html; charset=UTF-8';
 
-				wp_mail($emailTo, $subject, $body, $headers); 	
+				wp_mail($_POST['email'], $subject, $body, $headers); 	
 	        	
 	        }
     	}

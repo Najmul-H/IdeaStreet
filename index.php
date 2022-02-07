@@ -5,12 +5,12 @@
   <span class="mask opacity-6"></span>
     <div id="particles">
       <div id="webcoderskull">
-        <div class="container">
+        <div>
           <div class="col-md-12 ml-auto mr-auto" style="padding-top:10vh;padding-left: 5px;padding-right: 5px;">  
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner mb-4">
                 <div style="transition: none" class="carousel-item active" data-interval="10000">
-                  <div style="font-family:'Arial';font-weight:700;font-size:clamp(3vh,6vh,32px);text-align:center;overflow:hidden;">
+                  <div class="animation-header-font">
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="middle-of-type-text-1">
                       <span style="overflow:hidden;color:#4995C9;">The</span>
                     </div> 
@@ -24,7 +24,7 @@
                 </div>
 
                 <div style="transition: none" class="carousel-item" data-interval="10000">
-                  <div style="font-family:'Arial';font-weight:700;font-size:clamp(3vh,6vh,32px);text-align:center;overflow:hidden;">
+                  <div class="animation-header-font">
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="middle-of-type-text-3">
                       <span style="overflow:hidden;color:#4995C9;">Neither</span>
                     </div> 
@@ -38,17 +38,17 @@
                 </div>
                  
                 <div style="transition: none" class="carousel-item" data-interval="10000">
-                  <div style="font-family:'Arial';font-weight:700;font-size:clamp(2.5vh,5vh,26px);text-align:center;overflow:hidden;">
+                  <div class="animation-subheader-font">
                     <div style="white-space:nowrap;overflow:hidden;color: #061F55;" class="first-of-type-text-5">Wait is over</div> 
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="last-of-type-text-5"> 
-                      <span style="overflow:hidden;color: #061F55;font-size:clamp(6vh,12vh,64px);font-family:'Segoe UI';">idea</span><span style="overflow:hidden;color:#4995C9;font-size:clamp(6vh,12vh,64px);font-family:'Segoe UI';">Street</span>
+                      <span style="color: #061F55;" class="brand-font">idea</span><span style="color:#4995C9;" class="brand-font">Street</span>
                     </div>
                     <div style="white-space:nowrap;overflow:hidden;color: #061F55;" class="first-of-type-text-5">is here</div> 
                   </div>
                 </div>
                   
                 <div style="transition: none" class="carousel-item" data-interval="10000">
-                  <div style="font-family:'Arial';font-weight:700;font-size:clamp(3vh,6vh,32px);text-align:center;overflow:hidden;">
+                  <div class="animation-header-font">
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="middle-of-type-text-6">
                       <span style="overflow:hidden;color:#4995C9;">For</span>
                     </div> 
@@ -64,9 +64,9 @@
                 </div>
 
                 <div style="transition: none" class="carousel-item" data-interval="10000">
-                  <div style="font-family:'Arial';font-weight:700;font-size:clamp(3vh,6vh,32px);text-align:center;overflow:hidden;">
+                  <div style="text-align:center;overflow:hidden;">
                     <div style="display:inline-block;white-space:nowrap;overflow:hidden;" class="last-of-type-text-5"> 
-                      <span style="overflow:hidden;color: #061F55;font-size:clamp(6vh,12vh,64px);font-family:'Segoe UI';">idea</span><span style="overflow:hidden;color:#4995C9;font-size:clamp(6vh,12vh,64px);font-family:'Segoe UI';">Street</span>
+                      <span style="color: #061F55;" class="brand-font">idea</span><span style="color:#4995C9;" class="brand-font">Street</span>
                     </div>
                     <div class="typewriter-text-7-line-1 animation-font">Bringing your ideas to Wall Street</div>
                   </div>
@@ -80,7 +80,7 @@
   </div>
 </header>
 
-<div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6 bg-gradient-dark">
+<div class="card card-body shadow-xl mx-3 mx-md-4 mt-n7 bg-gradient-dark">
   <!-- Section with four info areas left & one card right with image and waves -->
   <section class="py-3">
     <div class="container">

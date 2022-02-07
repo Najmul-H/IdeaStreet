@@ -6,10 +6,71 @@ Version: 1.2
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+@media (min-height: 0px) {
+  .mt-n7 { margin-top: -1.7rem !important; }
+}
 
+@media (min-height: 660px) {
+  .mt-n7 { margin-top: -6rem !important; }
+}
 
+.brand-font {
+  font-family:'Segoe UI';
+  overflow:hidden;
+  font-weight:700;
+}
 
+@media (min-width: 0px) {
+  .brand-font { font-size: 28px; }
+}
 
+@media (min-width: 320px) {
+  .brand-font { font-size: 64px; }
+}
+
+@media (min-width: 1001px){
+  .brand-font { font-size: 64px; }
+}
+
+.animation-subheader-font {
+  font-size: 1rem;
+  font-weight:700;
+  font-family:'Arial';
+  text-align:center;
+  overflow:hidden;
+}
+
+@media (min-width: 0px) {
+  .animation-subheader-font { font-size: 18px; }
+}
+
+@media (min-width: 320px) {
+  .animation-subheader-font { font-size: 26px; }
+}
+
+@media (min-width: 1001px){
+  .animation-subheader-font { font-size: 26px; }
+}
+
+.animation-header-font {
+  font-size: 1rem;
+  font-weight:700;
+  font-family:'Arial';
+  text-align:center;
+  overflow:hidden;
+}
+
+@media (min-width: 0px) {
+  .animation-header-font { font-size: 22px; }
+}
+
+@media (min-width: 320px) {
+  .animation-header-font { font-size: 32px; }
+}
+
+@media (min-width: 1001px){
+  .animation-header-font { font-size: 32px; }
+}
 
 .animation-font {
   font-size: 1rem;
